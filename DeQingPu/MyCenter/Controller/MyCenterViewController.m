@@ -12,6 +12,7 @@
 #import "ShippingAddressViewController.h"
 #import "AttestationViewController.h"
 #import "MyMoneyViewController.h"
+#import "QuanziViewController.h"
 static NSString *identifier = @"MyTableViewCell";
 static NSString *identifier2 = @"cell";
 
@@ -80,7 +81,8 @@ static NSString *identifier2 = @"cell";
         MyHomePageViewController *homeVc = [[MyHomePageViewController alloc]init];
         [self.navigationController pushViewController:homeVc animated:NO];
     }else if (indexPath.row == 1){
-        
+        QuanziViewController *quanziVc = [[QuanziViewController alloc] init];
+        [self.navigationController pushViewController:quanziVc animated:NO];
     }else if (indexPath.row == 2){
         //我的荷包
         MyMoneyViewController *money = [[MyMoneyViewController alloc]init];
