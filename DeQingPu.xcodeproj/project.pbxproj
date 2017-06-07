@@ -30,7 +30,6 @@
 		18964B801EE417320096052E /* QuanZiTaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18964B7E1EE417320096052E /* QuanZiTaTableViewCell.m */; };
 		18964B811EE417320096052E /* QuanZiTaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18964B7F1EE417320096052E /* QuanZiTaTableViewCell.xib */; };
 		18B874FD1ED69C4400672016 /* MyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B874FB1ED69C4400672016 /* MyCenterViewController.m */; };
-		18B874FE1ED69C4400672016 /* MyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B874FC1ED69C4400672016 /* MyCenterViewController.xib */; };
 		18B875021ED69DDA00672016 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B875001ED69DDA00672016 /* AddressBookViewController.m */; };
 		18B875031ED69DDA00672016 /* AddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B875011ED69DDA00672016 /* AddressBookViewController.xib */; };
 		18B875071ED69DF700672016 /* LifeHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B875051ED69DF700672016 /* LifeHouseViewController.m */; };
@@ -92,6 +91,7 @@
 		18B877D81ED95D5C00672016 /* NewAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B877D61ED95D5C00672016 /* NewAddressViewController.xib */; };
 		18B877E21EDE988E00672016 /* AttestationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B877E01EDE988E00672016 /* AttestationViewController.m */; };
 		18B877E31EDE988E00672016 /* AttestationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B877E11EDE988E00672016 /* AttestationViewController.xib */; };
+		18C80F901EE7B9A30059622B /* MyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C80F8F1EE7B9A30059622B /* MyCenterViewController.xib */; };
 		18C847AE1EE516AC00D7F5F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C847981EE516AC00D7F5F4 /* Info.plist */; };
 		18C847AF1EE516AC00D7F5F4 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8479B1EE516AC00D7F5F4 /* MJExtensionConst.m */; };
 		18C847B01EE516AC00D7F5F4 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8479D1EE516AC00D7F5F4 /* MJFoundation.m */; };
@@ -206,7 +206,6 @@
 		18964B7F1EE417320096052E /* QuanZiTaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuanZiTaTableViewCell.xib; sourceTree = "<group>"; };
 		18B874FA1ED69C4400672016 /* MyCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCenterViewController.h; sourceTree = "<group>"; };
 		18B874FB1ED69C4400672016 /* MyCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCenterViewController.m; sourceTree = "<group>"; };
-		18B874FC1ED69C4400672016 /* MyCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCenterViewController.xib; sourceTree = "<group>"; };
 		18B874FF1ED69DDA00672016 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
 		18B875001ED69DDA00672016 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
 		18B875011ED69DDA00672016 /* AddressBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBookViewController.xib; sourceTree = "<group>"; };
@@ -322,6 +321,7 @@
 		18B877DF1EDE988E00672016 /* AttestationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttestationViewController.h; sourceTree = "<group>"; };
 		18B877E01EDE988E00672016 /* AttestationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttestationViewController.m; sourceTree = "<group>"; };
 		18B877E11EDE988E00672016 /* AttestationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttestationViewController.xib; sourceTree = "<group>"; };
+		18C80F8F1EE7B9A30059622B /* MyCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCenterViewController.xib; sourceTree = "<group>"; };
 		18C847981EE516AC00D7F5F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C847991EE516AC00D7F5F4 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
 		18C8479A1EE516AC00D7F5F4 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
@@ -667,7 +667,7 @@
 				18B877831ED90EEF00672016 /* login register */,
 				18B874FA1ED69C4400672016 /* MyCenterViewController.h */,
 				18B874FB1ED69C4400672016 /* MyCenterViewController.m */,
-				18B874FC1ED69C4400672016 /* MyCenterViewController.xib */,
+				18C80F8F1EE7B9A30059622B /* MyCenterViewController.xib */,
 				18B8767A1ED6DCA900672016 /* MyHomePageViewController.h */,
 				18B8767B1ED6DCA900672016 /* MyHomePageViewController.m */,
 				18B8767C1ED6DCA900672016 /* MyHomePageViewController.xib */,
@@ -1155,6 +1155,7 @@
 				18479ABE1EE6569B00C6E21E /* storeAttestationXIB.xib in Resources */,
 				18D88AE31ED3E05F009A3F64 /* RegisterViewController.xib in Resources */,
 				18B875171ED6A1EA00672016 /* MyTableViewCell.xib in Resources */,
+				18C80F901EE7B9A30059622B /* MyCenterViewController.xib in Resources */,
 				1829F7121ED279D900E68266 /* LogInViewController.xib in Resources */,
 				18B875031ED69DDA00672016 /* AddressBookViewController.xib in Resources */,
 				18B877E31EDE988E00672016 /* AttestationViewController.xib in Resources */,
@@ -1173,7 +1174,6 @@
 				18B875081ED69DF700672016 /* LifeHouseViewController.xib in Resources */,
 				18B877CB1ED913B400672016 /* SVProgressHUD.bundle in Resources */,
 				18B8767E1ED6DCA900672016 /* MyHomePageViewController.xib in Resources */,
-				18B874FE1ED69C4400672016 /* MyCenterViewController.xib in Resources */,
 				18B876861ED7BF1500672016 /* ShipAddressTableViewCell.xib in Resources */,
 				1865E9791EC2DA4E006F1EEF /* Main.storyboard in Resources */,
 				18C8481E1EE570B800D7F5F4 /* MyMoneyViewController.xib in Resources */,
