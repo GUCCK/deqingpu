@@ -7,19 +7,65 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TBTabBar.h"
+#import "TBTabBarController.h"
+#import "UITabBar+TBBadge.h"
+#import "LogInViewController.h"
 @interface AppDelegate ()
-
+@property(nonatomic,strong)TBTabBarController *tabbar;
 @end
+
 
 @implementation AppDelegate
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.tabbar = [[TBTabBarController alloc] init];
+    self.window.rootViewController = self.tabbar;
+    
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"login"]) {
+        [self showTabbarVc];
+    }else{
+        LogInViewController *logVc = [[LogInViewController alloc]init];
+        //点击回调到主界面
+        logVc.clickBlock= ^{
+            [self showTabbarVc];
+            
+        };
+        _window.rootViewController = logVc;
+    }
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
+    // 显示小红点
+   // [self showUnreadMessageHotView];
+    
     return YES;
 }
 
+
+#pragma mark -显示主界面
+-(void)showTabbarVc
+{
+    self.tabbar = [[TBTabBarController alloc]init];;
+    self.window.rootViewController = _tabbar;
+    
+}
+#pragma mark -显示小红点
+
+- (void)showUnreadMessageHotView {
+    
+    //显示小红点
+    [self.tabbar.tabBar showBadgeOnItemIndex:4];
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
